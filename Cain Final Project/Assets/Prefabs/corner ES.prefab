@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: corner ES
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6dbc91db5338a434dac3a134f15d0c6a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
