@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8794610070783828732
+--- !u!1001 &6607742145017284346
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,61 +8,80 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6301102854592478123, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
-      propertyPath: m_Name
-      value: hill-corner ES
-      objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6645574746939285777, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8810245211881461360, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"north","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"south","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"east","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"west","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    - target: {fileID: 919132149155446097, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
+      propertyPath: m_Name
+      value: hill-corner ES
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8810245211881461360}
+  m_SourcePrefab: {fileID: 100100000, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
+--- !u!1 &6301102854592478123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 803b70b3e23e3844cb8177b0352df970, type: 3}
+  m_PrefabInstance: {fileID: 6607742145017284346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8810245211881461360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6301102854592478123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"north","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"east","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"south","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"west","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
