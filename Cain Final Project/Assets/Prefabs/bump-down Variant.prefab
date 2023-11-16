@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbd05ff1914c1ac4491d248f6156505c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9046990498971918416}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbd05ff1914c1ac4491d248f6156505c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6134669617365054094}
   m_SourcePrefab: {fileID: 100100000, guid: fbd05ff1914c1ac4491d248f6156505c, type: 3}
 --- !u!1 &1945674209831900925 stripped
 GameObject:
@@ -85,3 +88,25 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!64 &6134669617365054094
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945674209831900925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6776956381596355868, guid: fbd05ff1914c1ac4491d248f6156505c, type: 3}
