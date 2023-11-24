@@ -61,6 +61,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hill-corner NW
       objectReference: {fileID: 0}
+    - target: {fileID: 3585448300408644496, guid: e75e9ae112aae45478000dc6016d1114, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

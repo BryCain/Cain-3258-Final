@@ -61,6 +61,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hill-round EW
       objectReference: {fileID: 0}
+    - target: {fileID: 4631135869384790047, guid: f8da347247f45874e828167d21b636b8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

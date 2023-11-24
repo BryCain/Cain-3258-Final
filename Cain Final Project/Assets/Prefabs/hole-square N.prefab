@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hole-square N
       objectReference: {fileID: 0}
+    - target: {fileID: 4844607086507588980, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
     - target: {fileID: 7653093725148280137, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"north","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,

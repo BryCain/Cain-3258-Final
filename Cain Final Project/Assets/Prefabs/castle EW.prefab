@@ -61,6 +61,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: castle EW
       objectReference: {fileID: 0}
+    - target: {fileID: 8196976079140490730, guid: a4c396718f6506344891bf9a547b3a40, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
