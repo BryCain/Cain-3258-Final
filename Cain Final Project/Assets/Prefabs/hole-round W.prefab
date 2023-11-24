@@ -61,6 +61,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hole-round W
       objectReference: {fileID: 0}
+    - target: {fileID: 8713861480306029445, guid: 28c21f0efd5bc204882a4632fffaf83e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
