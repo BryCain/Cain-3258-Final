@@ -209,8 +209,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138857153}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9511495, z: -0.30873072, w: 0}
-  m_LocalPosition: {x: 0, y: 0.56007326, z: 1.1163828}
+  m_LocalRotation: {x: -0.0000000060237344, y: 0.9367171, z: -0.35008723, w: -0.000000016117513}
+  m_LocalPosition: {x: 0, y: 0.71995413, z: 1.1163828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 257843539}
   - component: {fileID: 257843538}
   - component: {fileID: 257843540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ball
   m_TagString: ball
   m_Icon: {fileID: 0}
@@ -722,8 +722,35 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"clubActive","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"strokes","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"courseComplete","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"holePlaced","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"courseParts","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _objectReferences:
+    - {fileID: 7587645571266980334, guid: 1706c996debc3334690b30c64ea641db, type: 3}
+    - {fileID: 5549687364515893876, guid: 109972f75518b984d97ddadf2f2af3e2, type: 3}
+    - {fileID: 1945674209831900925, guid: 4546ad71907be3f4eaa0f5e576291858, type: 3}
+    - {fileID: 5796653683169574944, guid: 6a6b41f1bfef48f41a10c0a8b8b780d2, type: 3}
+    - {fileID: 4134642121365588849, guid: a0694f12a1af9814d971aeb5d7cd3f8f, type: 3}
+    - {fileID: 4613738912322961940, guid: 9d4f6e31d17155c409af978673e789a1, type: 3}
+    - {fileID: 624513537167612498, guid: 17ef19613fa766a498a53479ba211bbb, type: 3}
+    - {fileID: 7086884027443964320, guid: e2fa6215a14b8564cbe68822a4f707f1, type: 3}
+    - {fileID: 6509101717460359610, guid: a4c396718f6506344891bf9a547b3a40, type: 3}
+    - {fileID: 7345664549407723388, guid: eadabcda8fe81e04f935b3ccfe5c30a1, type: 3}
+    - {fileID: 7369451378347281384, guid: 61119e2979e22f44392b3983454c27eb, type: 3}
+    - {fileID: 1693202223447992368, guid: 3b1bbdb431a69d740bb721dac5533bba, type: 3}
+    - {fileID: 4810959375623164027, guid: c4cb34aecf7a22e4892af0ab41fb8584, type: 3}
+    - {fileID: 3039326071688812764, guid: 60274cbb5862f984f953421ed85f9891, type: 3}
+    - {fileID: 1439651321537587612, guid: b1cea9ac1e168aa4487de21a49fcc64c, type: 3}
+    - {fileID: 6324917799462596144, guid: 20f345f175ca7ff4d865d0ddaa187a59, type: 3}
+    - {fileID: 201836935196903420, guid: 58308b4895a839045b1942c1e9a30251, type: 3}
+    - {fileID: 6587078425421417715, guid: c6a193d9982380446b162c49018189bd, type: 3}
+    - {fileID: 494583696038802541, guid: 899271fb203d0684ab6194e7af339063, type: 3}
+    - {fileID: 6301102854592478123, guid: a13b5642ab74fab4cbbe783b29ad60b3, type: 3}
+    - {fileID: 1902160488352904018, guid: 5a57601beeca6b544a7c660aa7049063, type: 3}
+    - {fileID: 99214902295216916, guid: fa4669e4814c70d4b8dd494f4e86650c, type: 3}
+    - {fileID: 3278260894639561047, guid: e75e9ae112aae45478000dc6016d1114, type: 3}
 --- !u!4 &918729731
 Transform:
   m_ObjectHideFlags: 0
@@ -1001,7 +1028,7 @@ PrefabInstance:
     - target: {fileID: -4287176824193254684, guid: 5f0334036fb36f0479e8b245eaabbe77, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1326829156370360779, guid: 5f0334036fb36f0479e8b245eaabbe77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.300173
@@ -1048,7 +1075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1811019598966190961, guid: 5f0334036fb36f0479e8b245eaabbe77, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1157,12 +1184,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3441265525523653494, guid: de300451185130a40aecde1e8d97123c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8260377273887238202, guid: de300451185130a40aecde1e8d97123c, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1251,13 +1278,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0.81007326, z: 1.1163828}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_FollowOffset: {x: 0, y: 0.96995413, z: 1.1163828}
+  m_XDamping: 10
+  m_YDamping: 10
+  m_ZDamping: 10
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 5
+  m_YawDamping: 10
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &1966024946
@@ -1324,7 +1351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992907847}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -6.617445e-24, y: -1.7763568e-15, z: 1.3322676e-15, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1428,7 +1455,7 @@ PrefabInstance:
     - target: {fileID: 5603944994533162626, guid: 20f345f175ca7ff4d865d0ddaa187a59, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 13400000, guid: 72b442f448999a6478ac5b3a385de374, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6324917799462596144, guid: 20f345f175ca7ff4d865d0ddaa187a59, type: 3}
       propertyPath: m_Name
       value: end
