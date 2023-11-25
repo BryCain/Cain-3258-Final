@@ -170,7 +170,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: hole-round N
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3778441736916456156, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4956292217997130821, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
     - {fileID: 4868158757505418113, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
@@ -183,6 +184,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8891271941594827754, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7742634962348520369}
+    - targetCorrespondingSourceObject: {fileID: 8891271941594827754, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5651072993079605885}
   m_SourcePrefab: {fileID: 100100000, guid: d4af23746e787d14e81e59d79ebec069, type: 3}
 --- !u!4 &6163930593539024125 stripped
 Transform:
@@ -216,3 +220,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4507966649678968122, guid: ef554765b6a203241872e3a9f5639855, type: 3}
+--- !u!114 &5651072993079605885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6827877714569870919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []

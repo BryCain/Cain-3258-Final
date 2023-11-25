@@ -61,13 +61,17 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7253347839272257782, guid: 58308b4895a839045b1942c1e9a30251, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 201836935196903420, guid: 58308b4895a839045b1942c1e9a30251, type: 3}
       insertIndex: -1
       addedObject: {fileID: -2783082335472571190}
+    - targetCorrespondingSourceObject: {fileID: 201836935196903420, guid: 58308b4895a839045b1942c1e9a30251, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1128625878852646056}
   m_SourcePrefab: {fileID: 100100000, guid: 58308b4895a839045b1942c1e9a30251, type: 3}
 --- !u!1 &6324917799462596144 stripped
 GameObject:
@@ -96,3 +100,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8254804224689600507, guid: 610e189501c05ec42b30a0f42b8c7d58, type: 3}
+--- !u!114 &-1128625878852646056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324917799462596144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []

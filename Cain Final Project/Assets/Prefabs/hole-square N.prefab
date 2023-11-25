@@ -65,7 +65,8 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects:
     - {fileID: 5463569331582833947, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
     - {fileID: 8364975625191469093, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
@@ -74,6 +75,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2186662429767726648, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2593698648449619573}
+    - targetCorrespondingSourceObject: {fileID: 2186662429767726648, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2653145042937723573}
   m_SourcePrefab: {fileID: 100100000, guid: 9cee130b9bbc9c845801bdb7215f2f14, type: 3}
 --- !u!1 &3441265525523653494 stripped
 GameObject:
@@ -102,3 +106,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5482631173044344647, guid: ac71ce8d667e2464790bfa681f2bff8c, type: 3}
+--- !u!114 &-2653145042937723573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441265525523653494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []

@@ -65,13 +65,17 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1870136826937803320, guid: 28c21f0efd5bc204882a4632fffaf83e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8860310762044985819}
+    - targetCorrespondingSourceObject: {fileID: 1870136826937803320, guid: 28c21f0efd5bc204882a4632fffaf83e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2628357953408941262}
   m_SourcePrefab: {fileID: 100100000, guid: 28c21f0efd5bc204882a4632fffaf83e, type: 3}
 --- !u!1 &8891271941594827754 stripped
 GameObject:
@@ -100,3 +104,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4507966649678968122, guid: ef554765b6a203241872e3a9f5639855, type: 3}
+--- !u!114 &-2628357953408941262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891271941594827754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
