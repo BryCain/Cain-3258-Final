@@ -66,6 +66,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8117c33fe28a8534ea35283c6e8db4a5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 248848799929076785}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8117c33fe28a8534ea35283c6e8db4a5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803725772395325008}
   m_SourcePrefab: {fileID: 100100000, guid: 8117c33fe28a8534ea35283c6e8db4a5, type: 3}
 --- !u!1 &3923550114702135691 stripped
 GameObject:
@@ -114,3 +117,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3985377007228768527, guid: 8117c33fe28a8534ea35283c6e8db4a5, type: 3}
+--- !u!114 &803725772395325008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3923550114702135691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
