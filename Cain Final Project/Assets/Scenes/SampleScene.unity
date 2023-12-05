@@ -230,7 +230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138857153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000005960548, y: 0.9367171, z: -0.35008723, w: 0.000000015948448}
+  m_LocalRotation: {x: 0.0000000060237353, y: 0.9367171, z: -0.35008723, w: 0.000000016117514}
   m_LocalPosition: {x: 0, y: 0.71995413, z: 1.1163828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You win! Press R to generate a new coure.
+  m_text: You win! Press R to generate a new course.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2336,7 +2336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992907847}
   serializedVersion: 2
-  m_LocalRotation: {x: -6.617445e-24, y: 0.0000000020028228, z: -0.0000000017401263, w: 1}
+  m_LocalRotation: {x: 6.617445e-24, y: -1.7763568e-15, z: 1.3322676e-15, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
