@@ -230,7 +230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138857153}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000005910158, y: 0.9367171, z: -0.35008723, w: -0.00000001581362}
+  m_LocalRotation: {x: 0.0000000060237317, y: 0.9367171, z: -0.35008723, w: 0.000000016117506}
   m_LocalPosition: {x: 0, y: 0.96995413, z: 1.1163828}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -798,7 +798,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"clubActive","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"strokes","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"courseComplete","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"courseParts","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"courseParts","value":{"$content":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"partPositions","value":{"$content":[{"x":0.0,"y":0.0,"z":0.0}],"$type":"System.Collections.Generic.List`1[[UnityEngine.Vector3,
@@ -859,6 +859,10 @@ MonoBehaviour:
     - {fileID: 7797237115867340784, guid: d774cc4be0f544d449952dff3a8364d2, type: 3}
     - {fileID: 7797237115867340784, guid: 711afd714016c7c4c868d0f441d3ebdf, type: 3}
     - {fileID: 7797237115867340784, guid: 69748f44177baa34ca2fd22bfbeabb1a, type: 3}
+    - {fileID: 5379192627461816894, guid: 50d43cf9d8e441f409a5e20f8f81b501, type: 3}
+    - {fileID: 2140345890994838258, guid: 0371020c0bf933d4486c5bae78e4aaf3, type: 3}
+    - {fileID: 5797444982247899002, guid: f24f51469a61f2846bad308346223a33, type: 3}
+    - {fileID: 3362642333848230429, guid: 96d50705c334b3c4bb3190c309bf5f95, type: 3}
 --- !u!4 &918729731
 Transform:
   m_ObjectHideFlags: 0
@@ -1292,6 +1296,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8871523817442656121, guid: c6a193d9982380446b162c49018189bd, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"north","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"east","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"south","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"west","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"hole","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5774125175063860809, guid: c6a193d9982380446b162c49018189bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1335,6 +1348,10 @@ PrefabInstance:
     - target: {fileID: 6587078425421417715, guid: c6a193d9982380446b162c49018189bd, type: 3}
       propertyPath: m_Name
       value: end S
+      objectReference: {fileID: 0}
+    - target: {fileID: 6587078425421417715, guid: c6a193d9982380446b162c49018189bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -2400026560155792571, guid: c6a193d9982380446b162c49018189bd, type: 3}
@@ -2405,7 +2422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992907847}
   serializedVersion: 2
-  m_LocalRotation: {x: -6.617445e-24, y: 3.0593483e-10, z: -2.6580738e-10, w: 1}
+  m_LocalRotation: {x: -6.617445e-24, y: 3.5527137e-15, z: -2.6645353e-15, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
